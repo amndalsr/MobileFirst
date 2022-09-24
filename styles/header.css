@@ -91,4 +91,8 @@
         text-decoration: none;
         color: var(--preto);
     }
+
+    .container__imagem-fav {
+        display: none;
+    }
 }
