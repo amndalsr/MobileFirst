@@ -53,8 +53,19 @@
     }
 
     .contato__email {
-        width: 30%;
+        margin-left: 2em;
+        width: 25%;
     }
 
+}
 
+@media screen and (min-width: 1728px) {
+    .contato {
+        padding: 3em 30.5vw;
+    }
+
+    .contato__email {
+        margin-left: 2em;
+        width: 50%;
+    }
 }
