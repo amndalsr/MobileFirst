@@ -15,6 +15,7 @@
 .swiper-button-prev,
 .swiper-button-next {
     display: none;
+    background: var(--azul-degrade);;
 }
 
 .swiper-pagination {
@@ -84,4 +85,30 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+    .carrossel__titulo {
+        font-size: 26px;
+    }
+
+    .swiper-pagination {
+        margin: 2em 0 3em 0;
+    }
+
+    .swiper {
+        width: 60%;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+        color: var(--branco);
+        display: block;
+        top: 60%;
+    }
+
+    .card {
+        width: 40%;
+        margin: 2em auto;
+    }
 }
